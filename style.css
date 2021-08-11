@@ -1,0 +1,28 @@
+header {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  background: purple;
+}
+button{
+  height: 30px;
+  width: 100px;
+  background: cyan;
+  margin: 10px;
+}
+.middle{
+  width: 150px;
+}
+main{
+  flex-grow: 4;
+  height:500px;
+  background: yellow;
+}
+aside{
+  flex-grow: 1;
+  height: 500px;
+  background: lime;
+}
+.container{
+  display: flex;
+}
